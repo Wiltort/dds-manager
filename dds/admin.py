@@ -1,7 +1,6 @@
 from django import forms
 from django.contrib import admin
 from dds.models import Status, TransactionType, Category, SubCategory, Transaction
-from django.utils import timezone
 
 
 @admin.register(Status)
